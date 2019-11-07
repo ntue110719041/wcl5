@@ -1,0 +1,163 @@
+html{
+    font-family: "微軟正黑體","Microsoft JhengHei" !important;
+}
+body{
+    background-image: url("../images/bg.png");
+    background-size: 100%;
+    margin: 0px;
+}
+
+.header{
+    color:white;
+    font-weight: bold;
+    font-size: 250%;
+    width:980px;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.bg2{
+    width: 980px;
+    background-image: url("../images/bg01.jpg");
+    background-repeat: repeat-y;
+    /*background-color: rgba(255,255,255,1);
+    background-size: 80%;*/
+    margin: 0 auto;
+}
+/*nav目錄*/
+.menu{
+    width:980px;
+    height: 34px;
+    list-style-type: none;
+    background-color: #77B588;
+    margin: 0 auto;
+    padding:0;
+}
+li:hover{
+    background-color: #8DD19F;
+    color: white;
+    font-weight: bold;
+}
+li a{
+    display: block;
+    color: #8DD19F;
+    padding:6px;
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    width:244px;
+    text-align:center;
+    color: white;
+    float: left;
+    border-right:1px solid white;
+}
+li:last-child {
+    border-right: none;
+}
+.active {
+    background-color:#8DD19F;
+    color: #605E5E;
+    font-weight: bold;
+}
+/*內容*/
+.story{
+    width: 45%;
+    margin: 0px auto;
+}
+.title{
+    font-size: 185%;
+    color: #605E5E;
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+.story_content{
+    font-size: 95%;
+    color:#787878;
+    line-height: 150%;
+}
+.story_img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.subtitle{
+    font-size: 150%;
+    color: #787878;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.sub_content{
+    width:75%;
+    margin: 0 auto;
+}
+.sub_text{
+    font-size: 95%;
+    color:#787878;
+    line-height: 150%;
+    width:100%;
+}
+.sub_image{
+    margin-left:15%;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.wcl_logo{
+    width: 75%;
+    margin-left:10%;
+    margin-bottom: 30px;
+}
+/*頁尾*/
+footer{
+    width: 980px;
+    background-color: #7D6D43;
+    color:white;
+}
+.footer{
+    display: inline-flex;
+}
+.footer_text{
+    font-size: 80%;
+    padding:15px;
+    margin-left: 20px;
+}
+.logo{
+    display: inline-flex;
+    float: right;
+    padding:15px;
+    margin-right: 20px;
+}
+.logo_position{
+    margin-right: 10px;
+}
+.logo_position:hover{
+    margin-right: 10px;
+    filter:grayscale(80%);
+}
+
+/*輪播*/
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+   
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 15s slidy infinite; 
+    }
+    

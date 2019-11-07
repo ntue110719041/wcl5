@@ -1,0 +1,171 @@
+html{
+    font-family: "微軟正黑體","Microsoft JhengHei" !important;
+}
+body{
+    background-image: url("../images/bg.png");
+    background-size: 100%;
+}
+
+.header{
+    color:white;
+    font-weight: bold;
+    font-size: 250%;
+    width:980px;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.bg2{
+    width: 980px;
+    background-image: url("../images/bg01.jpg");
+    background-repeat: repeat-y;
+    /*background-color: rgba(255,255,255,1);
+    background-size: 80%;*/
+    margin: 0 auto;
+}
+/*nav目錄*/
+.menu{
+    width:980px;
+    height: 34px;
+    list-style-type: none;
+    background-color: #77B588;
+    margin: 0 auto;
+    padding:0;
+}
+li:hover{
+    background-color: #8DD19F;
+    color: white;
+    font-weight: bold;
+}
+li a{
+    display: block;
+    color: #8DD19F;
+    padding:6px;
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    width:244px;
+    text-align:center;
+    color: white;
+    float: left;
+    border-right:1px solid white;
+}
+li:last-child {
+    border-right: none;
+}
+.active {
+    background-color:#8DD19F;
+    color: #605E5E;
+    font-weight: bold;
+}
+
+/*頁尾*/
+footer{
+    width: 980px;
+    background-color: #7D6D43;
+    color:white;
+}
+.footer{
+    display: inline-flex;
+}
+.footer_text{
+    font-size: 80%;
+    padding:15px;
+    margin-left: 20px;
+}
+.logo{
+    display: inline-flex;
+    float: right;
+    padding:15px;
+    margin-right: 20px;
+}
+.logo_position{
+    margin-right: 10px;
+}
+.logo_position:hover{
+    margin-right: 10px;
+    filter:grayscale(80%);
+}
+
+/*內容*/
+h2{
+    margin: 0px;
+}
+.character_title{
+    width:93%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.character_content{
+    width:73%;
+    margin-left: 23%;
+}
+.title{
+    font-size: 175%;
+    color: #605E5E;
+    margin-bottom: 10px;
+}
+.content{
+    font-size: 95%;
+    color:#787878;
+    line-height: 200%;
+}
+.content:last-child{
+    margin-bottom: 30px;
+}
+/*
+.character_img0{
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+*/
+.subtitle{
+    font-size: 150%;
+    color: #605E5E;
+    margin-top:60px;
+    margin-bottom: 10px;
+}
+.character{
+    display: flex;
+}
+.character_img1{
+    width:50%;
+    height:50%;;
+    margin-right: 40px;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+.character_img2{
+    width:50%;
+    height:50%;
+    margin-right: 40px;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+.character_img3{
+    width:50%;
+    height:50%;
+    margin-right: 40px;
+    margin-top:60px;
+    margin-bottom: 10px;
+}
+
+/*換圖片*/
+#img0 a{
+    background: url("../images/館長_日_hover.png") no-repeat;
+    display: block;
+    width: 178px;
+    height: 652px;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+#img0 a:hover{
+    background: url("../images/館長_夜_hover.png") no-repeat;
+}
